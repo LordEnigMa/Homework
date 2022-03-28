@@ -91,7 +91,3 @@
 #                   mylist.remove(i)
                   
 # print(mylist)
-
-
-
-print('Hello World')
