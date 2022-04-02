@@ -30,35 +30,40 @@
 #####################################################
 
 def calc():
-      action = ['+', '-', '/', '*']
+      action = ''
       nums = []
       
       try:
             string = input('Введите действие: ')
             if ' ' in string:
-                  print('Напишите без пробелов')
+                  print('Напишите без пробелов!')
+            if len(string) <= 2:
+                  calc()
             for i in range(1, len(string)):
-                  if i in string: 
-                        nums = string.split(i)
+                  if string[i] == '.':
+                        continue
+                  if string[i].isdigit():
+                        continue
                   else:
-                        calc()
-                  if i == '+':
-                        print('Результат: ', sum(nums))
+                        nums.append(float(string[:i]))
+                        action = string[i]
+                        nums.append(float(string[i+1:]))
                         break
-                  if i == '-':
-                        print('Результат: ', nums[0] - nums[1])
-                        break
-                  if i == '*':
-                        break
-                        print('Результат: ', nums[0] * nums[1])
-                  if i == '/':
-                        try:
-                              x = nums[0] / nums[1]
-                              print('Результат: gadgad', x)
-                              break
-                        except:
-                              calc()
+            if len(nums) < 2:
+                  calc()
       except:
             calc()
-
+      
+      if action == '+':
+            print('Результат: ', nums[0] + nums[1])
+      if action == '-':
+            print('Результат: ', nums[0] - nums[1])
+      if action == '*':
+            print('Результат: ', nums[0] * nums[1])
+      if action == '/':
+            if nums[0] != 0:
+                  calc()
+            else:
+                  print('Результат: ', nums[0] / nums[1])
+                  
 calc()
