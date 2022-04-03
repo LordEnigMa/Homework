@@ -65,7 +65,7 @@
 #       elif action == '*':
 #             print('Результат: ', nums[0] * nums[1])
 #       elif action == '/':
-#             if nums[0] != 0:
+#             if nums[1] == 0:
 #                   calc()
 #             else:
 #                   print('Результат: ', nums[0] / nums[1])
