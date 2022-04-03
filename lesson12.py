@@ -60,14 +60,16 @@
       
 #       if action == '+':
 #             print('Результат: ', nums[0] + nums[1])
-#       if action == '-':
+#       elif action == '-':
 #             print('Результат: ', nums[0] - nums[1])
-#       if action == '*':
+#       elif action == '*':
 #             print('Результат: ', nums[0] * nums[1])
-#       if action == '/':
+#       elif action == '/':
 #             if nums[0] != 0:
 #                   calc()
 #             else:
 #                   print('Результат: ', nums[0] / nums[1])
+#       else:
+#             calc()
                   
 # calc()
