@@ -92,3 +92,25 @@ file_name = 'data.json'
 
 ###################################################
 
+# file = open('text.txt')
+# mylist = file.read().split(' ')
+# mydict = {}
+
+# for i in mylist:
+#       mydict.setdefault(i, mylist.count(i))
+      
+# print(mydict)
+
+###################################################
+
+my_list = ['a', 'b', 'a', 'c', 'b']
+
+def no_repeat(mylist):
+      new_list = []
+      for i in mylist:
+            if i not in new_list:
+                  new_list.append(i)
+
+      return new_list
+
+print(no_repeat(my_list))
