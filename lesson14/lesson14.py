@@ -103,14 +103,27 @@ file_name = 'data.json'
 
 ###################################################
 
-my_list = ['a', 'b', 'a', 'c', 'b']
+# my_list = ['a', 'b', 'a', 'c', 'b']
 
-def no_repeat(mylist):
-      new_list = []
-      for i in mylist:
-            if i not in new_list:
-                  new_list.append(i)
+# def no_repeat(mylist):
+#       new_list = []
+#       for i in mylist:
+#             if i not in new_list:
+#                   new_list.append(i)
 
-      return new_list
+#       return new_list
 
-print(no_repeat(my_list))
+# print(no_repeat(my_list))
+
+###################################################
+
+# lower_count = 0
+# upper_count = 0
+
+# with open('word.txt', 'rt') as file:
+#       for i in file.read():
+#             if i.isupper():
+#                   upper_count += 1
+#             elif i.islower():
+#                   lower_count += 1
+# print(lower_count, upper_count)
