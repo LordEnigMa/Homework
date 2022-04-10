@@ -57,14 +57,14 @@
 # print(res)
 
 
+# def fact():
+#       n = int(input('Write number: '))
+#       res = 1
 
-# n = int(input('Write number: '))
-# res = 1
-
-# for i in range(1, n + 1):
-#       res *= i
-      
-# print(res)
+#       for i in range(1, n + 1):
+#             res *= i
+            
+#       print(res)
 
 
 
