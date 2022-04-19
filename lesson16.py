@@ -194,3 +194,23 @@
 #                   print(f'Я не {self.fake_name}, а {self.name}.')
                   
 # instance = Nikola('Николай')
+
+############################################
+
+# class RealString:
+
+#       def __init__(self, str1, str2):
+#             self.str1 = str1
+#             self.str2 = str2
+
+#       def comparison(self):
+#             str1 = len(self.str1)
+#             str2 = len(self.str2)
+
+#             if str1 > str2:
+#                   print(f'Длина {self.str1.capitalize()} больше чем {self.str2.capitalize()}.')
+#             else:
+#                   print(f'Длина {self.str2.capitalize()} больше чем {self.str1.capitalize()}.')
+
+# instance = RealString('hello', 'hi')
+# instance.comparison()
