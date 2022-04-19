@@ -111,3 +111,86 @@
 
 ############################################
 
+# class Soda:
+      
+#       def __init__(self, additive):
+#             self.additive = additive
+            
+#       def show_my_drink(self):
+#             additive = self.additive
+#             if additive == 0 or additive == '' or additive == '':
+#                   print('Обычная газировка.')
+#             else:
+#                   print(f'Газировка и {additive}.')
+                  
+# instance = Soda(' ')
+# instance.show_my_drink()
+
+############################################
+
+# class TriangleChecker:
+      
+#       def __init__(self, a, b, c):
+#             self.a = a
+#             self.b = b
+#             self.c = c
+      
+#       def is_triangle(self):
+#             a = str(self.a)
+#             b = str(self.b)
+#             c = str(self.c)
+            
+#             if a.isdigit() and b.isdigit() and c.isdigit():
+#                   a = int(a)
+#                   b = int(b)
+#                   c = int(c)
+#                   if a > 0 or b > 0 or c > 0:
+#                         if a + b > c and a + c > b and b + c > a:
+#                               print('Ура, можно построить треугольник!')
+#                         else:
+#                               print('Жаль, но из этого треугольник не сделать.')
+#                   else:
+#                         print('С отрицательными числами ничего не выйдет!')
+#             else:
+#                   print('Нужно вводить только числа!')
+                  
+# instance = TriangleChecker(4, 5, 10)
+# instance.is_triangle()
+
+############################################
+
+# class KgToPounds:
+      
+#       def __init__(self, kg):
+#             self.kg = kg
+      
+#       def set_kg(self, kg):
+#             self.kg = kg
+      
+#       def get_kg(self):
+#             print('Введённое количество кг:', self.kg)
+            
+#       def to_pounds(self):
+#             kg = self.kg
+#             pounds = int(kg * 2.2)
+#             print(f'{kg} кг равно {pounds} фунтов.')
+            
+# instance = KgToPounds(100)
+# instance.set_kg(120)
+# instance.get_kg()
+# instance.to_pounds()
+
+############################################
+
+# class Nikola:
+
+#       def __init__(self, name):
+#             self.fake_name = name
+#             self.name = 'Николай'
+            
+#             if self.fake_name == self.name:
+#                   print('Я Николай.')
+#             else:
+#                   print(f'Я не {self.fake_name}, а {self.name}.')
+                  
+# instance = Nikola('Николай')
