@@ -48,3 +48,66 @@
 
 ############################################
 
+# import datetime
+
+# class Parent:
+#       def hello(self):
+#             print('Hello World!')
+      
+#       def time(self):
+#             time = datetime.date.today()
+#             print(time)
+
+# class Child(Parent):
+      
+#       def show(self):
+#             super().hello()
+#             super().time()
+
+# instance = Child()
+
+# instance.show()
+
+############################################
+
+# class Rectangle:
+      
+#       def __init__(self, length, width):
+#             self.length = length
+#             self.width = width
+      
+#       def area(self):
+#             Area = self.length * self.width
+#             print(f'Площадь прямоугольника равна: {Area}')
+      
+# instance = Rectangle(3, 5)
+# instance.area()
+
+############################################
+
+# class Parent:
+      
+#       def __init__(self):
+#             self.city = 'Erevan'
+      
+#       def country(self):
+#             country = self.city
+#             print(country)
+            
+# class Child(Parent):
+      
+#       def __init__(self):
+#             self.city = 'Paris'
+            
+#       def country(self):
+#             country = self.city
+#             print(country)
+            
+# a = Parent()
+# b = Child()
+
+# a.country()
+# b.country()
+
+############################################
+
