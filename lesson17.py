@@ -61,3 +61,33 @@
 
 ############################################
 
+# class MyClass:
+
+#       def __init__(self, mylist):
+#             self.mylist = list(mylist)
+
+#       def max_length(self):
+#             mylist = self.mylist
+#             max_length = 0
+
+#             for i in mylist:
+#                   if len(i) > max_length:
+#                         max_length = len(i)
+            
+#             return max_length
+      
+#       def longest_strings(self):
+#             max_length = self.max_length()
+#             new_list = []
+
+#             for i in self.mylist:
+#                   if len(i) == max_length:
+#                         new_list.append(i)
+            
+#             print(new_list)
+
+# instance = MyClass(["aba", "aa", "ad", "vcd", "aba"])
+# instance.longest_strings()
+
+############################################
+
